@@ -1,0 +1,46 @@
+/* Component.css */
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.listPkms {
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  width: 150px; /* Ancho fijo de la tarjeta */
+  height: 200px; /* Altura fija de la tarjeta */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Espacio entre contenido */
+  align-items: center; /* Centrar contenido verticalmente */
+  border-radius: 10px;
+  background-color: white; /* Color de fondo de la tarjeta */
+}
+
+
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.front {
+}
+
+.back {
+
+}
